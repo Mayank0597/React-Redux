@@ -1,10 +1,10 @@
 import React from "react";
 
-const Sidebar = ({ selectedTab, setSelectedTab }) => {
+const SideBar = ({ selectedTab, setSelectedTab }) => {
   return (
     <div
       className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar"
-      style={{ width: "180px" }}
+      style={{ width: "280px" }}
     >
       <a
         href="/"
@@ -101,4 +101,4 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
   );
 };
 
-export default Sidebar;
+export default SideBar;
